@@ -301,7 +301,7 @@ function logPage(content){
 
 setLogEngine(logPage)
 
-const KEEP_ALIVE_URL = process.env.KEEP_ALIVE_URL
+const KEEP_ALIVE_URL = process.env.https://hyper-boot.herokuapp.com/
 const KEEP_ALIVE_INTERVAL = parseInt(process.env.KEEP_ALIVE_INTERVAL || "5")
 
 const possibleOpeningMoves = ["e2e4", "d2d4", "c2c4", "g1f3", "e2e3"]
